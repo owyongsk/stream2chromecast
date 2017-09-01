@@ -298,7 +298,9 @@ class CCMediaController():
                 
             data["media"].update({
                                 "textTrackStyle":{
-                                    'backgroundColor':'#FFFFFF00'
+                                    'backgroundColor':'#FFFFFF00',
+                                    'edgeColor':      '#000000FF',
+                                    'edgeType':       'OUTLINE'
                                 },
                                 "tracks": [{"trackId": 1,
                                             "trackContentId": sub,
